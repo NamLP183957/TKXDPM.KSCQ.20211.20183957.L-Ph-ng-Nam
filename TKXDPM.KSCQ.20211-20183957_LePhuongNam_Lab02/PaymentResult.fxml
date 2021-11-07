@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="768.0" prefWidth="1344.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Text fill="#183dba" layoutX="153.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="87.0" fitWidth="83.0" layoutX="54.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/SlashImg.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#11dd52" layoutX="566.0" layoutY="344.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Result">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Text>
+      <Text fill="#f04d07" layoutX="664.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Text>
+      <Button layoutX="610.0" layoutY="560.0" mnemonicParsing="false" prefHeight="57.0" prefWidth="201.0" text="OK">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
